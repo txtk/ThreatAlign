@@ -6,7 +6,7 @@ Unlike conventional report classification, ThreatAlign does not assume that each
 
 <p align="center">
   <a href="docs/figures/threatalign_architecture.pdf">
-    <img src="docs/figures/threatalign_architecture.png" alt="ThreatAlign architecture" width="92%">
+    <img src="docs/figures/threatalign_architecture.png" alt="ThreatAlign architecture" width="100%">
   </a>
 </p>
 
