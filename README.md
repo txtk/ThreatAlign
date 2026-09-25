@@ -4,11 +4,7 @@
 
 Unlike conventional report classification, ThreatAlign does not assume that each query is a single report. A query can aggregate evidence from one or more reports, indicators, malware, ATT&CK techniques, vulnerabilities, and other CTI entities around an unknown organization.
 
-<p align="center">
-  <a href="docs/figures/threatalign_architecture.pdf">
-    <img src="docs/figures/threatalign_architecture.png" alt="ThreatAlign architecture" width="100%">
-  </a>
-</p>
+[![ThreatAlign architecture](docs/figures/threatalign_architecture_readme.png)](docs/figures/threatalign_architecture.pdf)
 
 <p align="center">
   <a href="docs/figures/threatalign_architecture.pdf">Architecture PDF</a>
@@ -37,7 +33,8 @@ ThreatAlign/
 ├── docs/
 │   └── figures/
 │       ├── threatalign_architecture.pdf
-│       └── threatalign_architecture.png
+│       ├── threatalign_architecture.png
+│       └── threatalign_architecture_readme.png
 └── src/
     ├── threatalign/                 # profiling, retrieval, re-ranking, ablation, evaluation
     ├── data/
