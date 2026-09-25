@@ -1,0 +1,1331 @@
+{
+    "groups": {
+        "Awaken Likho": {
+            "total": 4,
+            "target": [
+                "de95d1b5-fa27-4b03-9be8-26fd2d00dbdd",
+                "ec4fb4b2-e8ad-40b1-bb2f-996d6a9fefe6"
+            ],
+            "source": [
+                "63458cfb-87c9-4c93-a78d-c78832751446",
+                "d803179f-f50c-4975-93aa-c51bdb54f12f"
+            ],
+            "has_missing_time": false
+        },
+        "Silence group": {
+            "total": 2,
+            "target": [
+                "211095f0-5326-4bf4-9136-b906e4147450"
+            ],
+            "source": [
+                "34350c8e-5a83-495f-b978-d12d33c3561f"
+            ],
+            "has_missing_time": false
+        },
+        "APT10": {
+            "total": 5,
+            "target": [
+                "2c81af03-8442-43ae-b55c-2f9487b7ddd1",
+                "63af4067-9cea-496b-8573-e48c8389e9ce"
+            ],
+            "source": [
+                "cf49c9e8-6692-44cd-86e5-bff5a3f32da7",
+                "1343f681-114e-48c2-a855-40c42da96a1c",
+                "d9494fe1-0467-4296-9c29-556c55fc9f8f"
+            ],
+            "has_missing_time": false
+        },
+        "Turla": {
+            "total": 19,
+            "target": [
+                "f95f740b-9026-441e-a0b9-5237e31fd2ec",
+                "b7e75823-a06c-469f-bd25-784461d80388",
+                "73e29d89-b7be-4d04-9919-e364a41ce2a5",
+                "2f36e2a6-839c-4e29-bda4-a2f71380ed7c",
+                "1bb69db7-0ce1-4f17-9835-d1cf880c6a1b",
+                "e609e48b-b521-4440-85ef-142fc0ee9458",
+                "c987825f-a2cc-43fd-b673-1a3668056516",
+                "faa9bf29-e4b4-4df9-8859-88174e8dcc6e",
+                "a0bc0168-de35-41a4-89da-011728852bc4"
+            ],
+            "source": [
+                "f8fb018f-b060-4a8e-a76c-a8e286de7a66",
+                "927aa151-878a-43f2-b97d-0a5d6bb24420",
+                "83d1a566-fa03-4354-8561-07a7d8e1a06d",
+                "c9fb024c-4a5b-4a12-ad3b-f61d2006c9a4",
+                "360a4df1-c5a6-42b0-8371-d9300d92059f",
+                "abee5853-9785-4163-9fe1-4fa24acfdc27",
+                "db475751-d3ad-46cd-ae85-90676935f9bc",
+                "2d04d16b-4d2c-4918-8b10-3c3d7e09c798",
+                "12602869-92dc-4135-985a-11d219e6685a",
+                "ccd305fa-5789-424e-b780-3e8f349a2a0a"
+            ],
+            "has_missing_time": false
+        },
+        "Larva-208": {
+            "total": 2,
+            "target": [
+                "2382b796-e8c1-493a-b046-f959ff7349a9"
+            ],
+            "source": [
+                "dea61659-6fce-4bf8-b355-9d58f6acb0a6"
+            ],
+            "has_missing_time": false
+        },
+        "APT-C-60": {
+            "total": 3,
+            "target": [
+                "45e10b5c-85be-4604-ac41-323b12aeb48e"
+            ],
+            "source": [
+                "8839cbb9-31ac-4211-b6ca-40f6290a892f",
+                "6ead6d8d-4e53-4785-89db-b363b80bc5e1"
+            ],
+            "has_missing_time": false
+        },
+        "UAC-0099": {
+            "total": 2,
+            "target": [
+                "8aa6aa1e-e4a3-4a51-a6e8-f3cf55ac7583"
+            ],
+            "source": [
+                "210ce50f-d1be-48c9-b5ce-477e2e16fea5"
+            ],
+            "has_missing_time": false
+        },
+        "Evilnum": {
+            "total": 5,
+            "target": [
+                "aa55c2ff-bb34-4134-ba74-10fd6e9338c7",
+                "2f9da2ab-3793-4c8d-b69a-8277fa1291c9"
+            ],
+            "source": [
+                "28f246d8-f863-4d7a-99cb-86cb97c3b19a",
+                "0e70d764-9d2c-41f9-899d-2a542596d93b",
+                "e787afc0-c5d5-4721-9fbd-292b81f3af51"
+            ],
+            "has_missing_time": false
+        },
+        "GoldenJackal": {
+            "total": 3,
+            "target": [
+                "92fcc112-6b0d-4c9a-ad08-b66b159021af"
+            ],
+            "source": [
+                "e53599ec-b8d0-4182-aaed-fe53f7ff6b24",
+                "e17a8e5a-2cf2-4434-9d2a-436cd16a67ec"
+            ],
+            "has_missing_time": false
+        },
+        "Lazarus Group": {
+            "total": 50,
+            "target": [
+                "b711a3d0-0643-4bd2-abe9-64b0483d5e0c",
+                "3b04069b-4447-49d7-9723-127e80abd4b3",
+                "6e22c5a9-fd8b-4831-b2ca-10632e96a958",
+                "efaad144-dce6-49ec-99ab-ba63504f9b31",
+                "c5b6e8f5-d33b-446d-85bd-e7501ed85c71",
+                "a93b5e7d-7491-4a2c-82e7-9006c093201d",
+                "24ad27af-a2ae-45f8-8e5d-a90b0ddfdbb8",
+                "b87e835c-b262-45a0-ab8a-dbc5d8a855c8",
+                "6920a050-9234-4388-81b1-20b3b391671f",
+                "91fbc2f8-4c62-4cee-a52e-d07bfb1ae6f8",
+                "b5f29105-d61f-43ee-832d-6465fad919b4",
+                "ef6c7c86-ba4c-41a1-9cfc-153dc27e7696",
+                "6f36d99b-00dc-4b19-aa87-70c92163a5e3",
+                "207d3a2b-59d2-40ea-ad4c-2e21cc58689a",
+                "3d0ef025-6e5f-46bc-af00-f18e87ae32fd",
+                "397e440b-318b-4639-8f38-a044327a0f9f",
+                "c3dc96d7-ec36-4e6b-a415-d2abb596612c",
+                "1c18b26a-fb78-47f8-bb22-81e6d3e7970b",
+                "6f66fa55-fb47-4d75-a553-e8f5ac210459",
+                "cbfdeb99-76dc-4d5d-a81d-11c50495834c",
+                "4f09c253-3b88-4d09-add2-d51d84adce9e",
+                "600919ad-92fc-4b60-b419-f596dbc137d1",
+                "ffaae3cc-e62c-422e-be57-e9a1d2cd0544",
+                "aa121ee6-9f45-4aca-b446-e04c49581844",
+                "e005fa38-e79c-40f7-9518-533d4b605097"
+            ],
+            "source": [
+                "e9861905-73fb-4154-9ac3-ff6d51e08d3c",
+                "62da2cf8-2571-44c0-8074-edc4416f4002",
+                "c2e37670-2b3d-469d-ac51-27b79a3ba494",
+                "474ac590-a233-4198-92f0-a1b8e505aab4",
+                "b095f366-b0b7-45e5-8386-3bc613d5abb3",
+                "64f66ccc-bad9-4e0f-9f39-73cd3b49e941",
+                "289bed59-35cd-47a6-9092-88e04ea55555",
+                "fdf18797-5aef-439a-b184-cf896ac14975",
+                "7f564ada-ed47-4adc-95e0-572b4aee2934",
+                "5ed8fb85-5972-4bb5-9fc6-9dc6b00b63b0",
+                "84971eb8-8498-45de-9032-91d3ed22f60d",
+                "ce8dfc4d-c4d2-4a20-acd3-f9e66a736d81",
+                "ed059576-1eec-4a32-8c81-d4fab8d659fb",
+                "1f46ffe0-e96f-45c7-ba78-b20cb312370c",
+                "870a1f61-89a3-4f18-a7bd-f59080b1f1ac",
+                "a97ff196-c578-4cf5-ac9e-5c3dd494f896",
+                "cc6e2140-3d3c-428d-a439-8c0283180b1b",
+                "626c8ebd-cd9f-49cf-b7ae-cc9db58d72d9",
+                "1107e42f-af4f-4092-8e53-1cd4dbf4a7f4",
+                "5ed209c5-2a65-4e48-be27-6b3bd1a8c9eb",
+                "8aea6b79-95bd-42a1-a78b-81ce13277306",
+                "32317dd1-5b72-4225-a1b6-7a58063c820a",
+                "7e3cd1a6-ce68-4ef3-9e51-df68702d804d",
+                "6d7750db-5a70-4936-83c8-26e8a3fce683",
+                "7754d1ec-b26f-4fe8-8bad-8742f7c043e4"
+            ],
+            "has_missing_time": false
+        },
+        "SharpPanda": {
+            "total": 2,
+            "target": [
+                "14f8975f-ea44-4075-9ef1-10db150043c8"
+            ],
+            "source": [
+                "a73c3d3e-8bad-462a-a186-0c59feb38232"
+            ],
+            "has_missing_time": false
+        },
+        "Kimsuky": {
+            "total": 25,
+            "target": [
+                "5eca9a85-d58f-4513-a2e6-0d04a15c3390",
+                "81c04b7f-a333-44c2-b199-0cd3a90324f4",
+                "d63400b2-8913-41b3-b91c-558d6de19290",
+                "4b47d683-7a72-445e-bcde-200b7a2713ea",
+                "d1624f03-0778-4940-b088-03b289d176c6",
+                "b8443cfe-d449-4836-9560-c6c57278abc0",
+                "9732a107-1604-407b-acce-3a8303751a4e",
+                "c3b683bc-8932-4e81-a129-319fda94b929",
+                "adc74b36-8082-4cd7-8092-f6998e400896",
+                "0eb97c2f-15f2-4f6a-b166-21d93f0a0207",
+                "a6e67d05-aa59-4bbc-98d1-3f5b3488f5bc",
+                "7f89db21-3816-4c95-8aeb-04c8576ba6fd"
+            ],
+            "source": [
+                "edb794e0-3578-49b9-b72b-d56a895c7199",
+                "a9050ff1-5ab8-4d6c-9a3e-3ad0cd652b1a",
+                "bf787ad8-a465-4d79-a389-113e2b1245ed",
+                "b9d6775a-5f17-429b-9491-b871b4dbba1b",
+                "c523d824-3f09-4da0-ae7f-a3b7d319099b",
+                "2208d3c2-464e-48bf-9967-4d58056a3739",
+                "185cd6de-0967-4117-90bd-09eb29ea38f6",
+                "7bbbe522-a529-4a72-b929-20cb4afc1d2d",
+                "8c69f0ec-ea6c-4f5f-ba0a-6946e64d4b67",
+                "02a8510e-4247-4afb-889b-e35c03beb3e9",
+                "ea0f7f8b-8c73-4853-b74d-2f018dc87c12",
+                "240a7de8-1e3a-41c1-9ce3-319feadd64ce",
+                "b5bbc750-acdd-492d-ae49-019b1cf27516"
+            ],
+            "has_missing_time": false
+        },
+        "APT32": {
+            "total": 3,
+            "target": [
+                "c460d0f5-7c83-4293-9e8c-f322944d3f8a"
+            ],
+            "source": [
+                "b04251fb-b8e4-45ae-9dd3-4c88c6e0071d",
+                "ce5cb6d9-2a7b-4a95-99b9-611c43ac70f0"
+            ],
+            "has_missing_time": false
+        },
+        "RAZOR TIGER": {
+            "total": 8,
+            "target": [
+                "70ec1529-5c55-472d-b1a7-e0e763af6cc6",
+                "2a5f13b4-73d6-4171-8ba0-120648dca1c2",
+                "18bc5ed0-1dbf-482f-9e17-1c6e96b4ad03",
+                "20ca4c2f-8181-46d6-aedb-bc6f20c282a3"
+            ],
+            "source": [
+                "34571d78-ec5e-42c4-8e21-c2d4429a8589",
+                "b44ae6d8-41e9-4b73-b211-20f2bb506fb7",
+                "1459c9c1-bd6a-4588-8563-ef96146b8588",
+                "fbba5b96-f6d2-40ab-9560-5e52afd0ee67"
+            ],
+            "has_missing_time": false
+        },
+        "Gelsemium": {
+            "total": 4,
+            "target": [
+                "d9c20781-d159-4d04-85bd-04e4321eb691",
+                "a65363ce-543b-4ca0-85e3-f28386e03223"
+            ],
+            "source": [
+                "b302dcb8-c278-4852-a5ff-64ca78fd6c35",
+                "ac7a8c5e-ef5d-4a88-b3f6-f4da0a5ef8fe"
+            ],
+            "has_missing_time": false
+        },
+        "APT28": {
+            "total": 18,
+            "target": [
+                "a4c7f1c0-2aeb-4b58-adbf-ac87c92ecead",
+                "d2900039-5021-4667-9307-cc689716aca4",
+                "0bd0afe2-248e-4c28-9039-6c613a3556ee",
+                "79366766-5a15-4000-a590-899c8b48850f",
+                "2aedb69b-ccb6-484e-86c4-9c14120b4f3e",
+                "177c61db-634a-462a-ab0e-aff31df8d65e",
+                "246c87b8-2978-4478-b4d5-0fa8d173260d",
+                "2514cafa-6a5b-459f-b56c-6f9ea05d9b96",
+                "8650238f-9f69-4986-805e-53cd01a3ff74"
+            ],
+            "source": [
+                "4a0ae9c2-7754-4e54-b2e4-b6ab0494793e",
+                "51e7b9e4-8d49-43d6-a21b-f97d2adfe713",
+                "f81f9e19-6efb-416e-8847-c19f7b76ae83",
+                "112fe7bf-f891-4a65-baa1-c3e15a0120dc",
+                "76dcd149-d05d-40bd-887e-75933aedd323",
+                "a182fce4-a8d2-415f-a1a4-8f5ca7dcfb27",
+                "3262dedf-d78c-4345-83fd-bbf4713df618",
+                "44318335-37fc-4e75-8d36-ef0324682dfb",
+                "8135f653-f326-4e8d-91cb-92a2482dff29"
+            ],
+            "has_missing_time": false
+        },
+        "Unfading Sea Haze": {
+            "total": 2,
+            "target": [
+                "8fa4f533-b0a7-479b-be11-4223925f7e0a"
+            ],
+            "source": [
+                "f3dbd924-80ab-4179-a385-ca39f0db3c5e"
+            ],
+            "has_missing_time": false
+        },
+        "Volatile Cedar": {
+            "total": 2,
+            "target": [
+                "8ffea694-30a4-4587-9f63-5cf4e56936f5"
+            ],
+            "source": [
+                "3ca52607-b569-4560-9e26-6b2c93c02899"
+            ],
+            "has_missing_time": false
+        },
+        "RedGolf": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "1cb8ffbc-7a7c-4399-a7ac-5ba937f1a3fb"
+            ],
+            "has_missing_time": false
+        },
+        "MUSTANG PANDA": {
+            "total": 12,
+            "target": [
+                "88866154-aabe-4239-8df5-fec24e74d810",
+                "8e719962-2b72-4c02-8b4e-048a50639e11",
+                "dd0e97db-f889-47ac-8ee5-fd289df6979a",
+                "4830c393-bd8f-431a-9251-1573379518c9",
+                "37e13fd4-87df-4621-8ad2-38a7045586ee",
+                "6e207a02-9515-42ab-836b-b6eb4f04a0ce"
+            ],
+            "source": [
+                "2b0e26ff-d0d8-4b90-bde0-a9c58ed7a2b9",
+                "06fb71b0-be0e-4265-b33c-56e86e01fcd3",
+                "a5d65e2e-3f5a-4983-866c-ab5393f44c97",
+                "63778505-c33f-4f58-88a5-832787f247f9",
+                "71ecf998-6aad-432b-bb3f-963535bd40f7",
+                "eeeae90a-a531-4f14-aceb-49a49f44c35e"
+            ],
+            "has_missing_time": false
+        },
+        "APT42": {
+            "total": 3,
+            "target": [
+                "d264f144-0cf1-4761-a3d6-a36b8170f7ca"
+            ],
+            "source": [
+                "1b0c7b0b-8eb1-4587-812f-68d7a834b51e",
+                "320e7540-09b4-4478-811e-4fd5ef606a4c"
+            ],
+            "has_missing_time": false
+        },
+        "DragonForce": {
+            "total": 3,
+            "target": [
+                "9f5abbf0-7730-417b-b012-05bef9ce1cef"
+            ],
+            "source": [
+                "201b421a-2984-40c7-91e2-ca4425d89d48",
+                "003be58b-6691-49df-9321-ace310e16ea6"
+            ],
+            "has_missing_time": false
+        },
+        "APT-C-36": {
+            "total": 10,
+            "target": [
+                "145de291-ded8-4966-b3ae-19e712312072",
+                "795668fd-12fc-4cec-9a1d-1abf32630b7a",
+                "c34f64c3-9434-4d2f-9c44-e2bfc320a727",
+                "d6bbc4a8-0e03-41a6-a6d7-7c6aebc99406",
+                "e014cb03-0b34-4800-b2a4-6313b5b7f381"
+            ],
+            "source": [
+                "f455a860-79f3-4d00-807e-441592ac7100",
+                "ddabca94-af62-4735-8790-d05792f9743c",
+                "9aa27b10-07df-42e6-bb7e-21946a4f2562",
+                "794a18ff-3d42-4246-a14d-fc68ff50314e",
+                "6b4d3de5-7af0-4ac7-a254-5da969759c26"
+            ],
+            "has_missing_time": false
+        },
+        "FIN8": {
+            "total": 2,
+            "target": [
+                "ec667f0f-c55d-409d-9f11-338790c37f94"
+            ],
+            "source": [
+                "75742edc-235f-4427-a192-3ad329ff8cfd"
+            ],
+            "has_missing_time": false
+        },
+        "APT35": {
+            "total": 10,
+            "target": [
+                "fc18f776-20cf-4c8e-8333-ea9c210b8750",
+                "dacf1b7c-c56f-47ce-8734-5997ab0a3f14",
+                "1a0558f4-5fa9-4fb6-a7a6-b8db5730de87",
+                "46416e23-460a-4ecb-8ff0-ea9d2803a98b",
+                "999617bb-1819-418b-b08d-b93ec020ba73"
+            ],
+            "source": [
+                "22901b88-6136-45ed-a84a-8bdeefadb42b",
+                "eb2a2303-818c-4425-82d7-8837a1cb794b",
+                "bc287268-9c85-4f18-bd64-4fed8ff1fca4",
+                "1b2221dd-0812-41ec-a237-1a1c9394832c",
+                "c8548784-d622-4ba8-9ba9-3290c717bc7c"
+            ],
+            "has_missing_time": false
+        },
+        "Operation C-Major": {
+            "total": 16,
+            "target": [
+                "c25bd22a-c1cf-46ad-8ad1-df7c8437ef39",
+                "4a3776ce-47df-4aec-af71-c5c66d95a468",
+                "12c81723-b40f-455a-a976-a0233e8ec6ee",
+                "7eb4af0c-810a-4907-8e18-168ac93f2d1c",
+                "3ebafecb-af81-490c-89d8-c1fc81f3e722",
+                "37655b10-daa9-443c-bc2e-53e31562c748",
+                "332063c8-0223-4859-a7a4-3011d15bb2cf",
+                "54fd572c-5870-444c-b637-cf087a03869c"
+            ],
+            "source": [
+                "9178daa5-3c17-451f-849c-1182ed69c95d",
+                "64d1f2ac-5358-4f10-aed0-a5e66f8268f1",
+                "fccf610a-1da9-4003-bcb7-2ea5ad937ba8",
+                "1b341781-cad8-47c0-9dc0-9d4848621349",
+                "4ea3f097-28b2-4375-b12e-f65307b39e6e",
+                "6ea32ba8-2bd3-4417-89e3-2fd653ad904c",
+                "defde155-fd78-4b65-a08f-f343bd933e6b",
+                "64fa1094-9733-4e62-99b2-4d4f41ee4090"
+            ],
+            "has_missing_time": false
+        },
+        "Storm-1567": {
+            "total": 6,
+            "target": [
+                "fdb185ff-db98-412d-97dc-805fc287c184",
+                "0d970899-10ab-4b94-9877-b4b878568223",
+                "652ef6c6-ce25-44ee-afc7-4b9ff7d2bb88"
+            ],
+            "source": [
+                "fc85bd6b-8f99-4eaa-9179-842b9ad4f12c",
+                "42a5a748-11ee-4a26-a837-233c83872d0d",
+                "13b6d001-c996-46f7-9c30-1b6cccf494e6"
+            ],
+            "has_missing_time": false
+        },
+        "Prophet Spider": {
+            "total": 2,
+            "target": [
+                "f256725d-c6c5-4406-970d-77f3d49dfb89"
+            ],
+            "source": [
+                "2129a34f-5734-42c4-9d0a-238b4ee97359"
+            ],
+            "has_missing_time": false
+        },
+        "UAC-0050": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "4e411155-f096-4533-9ef4-68aa958b36de"
+            ],
+            "has_missing_time": false
+        },
+        "TeamTNT": {
+            "total": 4,
+            "target": [
+                "e35ea705-f362-476f-804a-76d2d30d7e6a",
+                "3c662191-3e72-42d1-b1ea-9e793332dbfa"
+            ],
+            "source": [
+                "bb8568be-63da-4647-8a8d-fb01b9eecce3",
+                "af85dc91-d6a1-428f-8664-f23c232f5546"
+            ],
+            "has_missing_time": false
+        },
+        "SideCopy": {
+            "total": 2,
+            "target": [
+                "622727ed-f0b3-4ffc-8401-ce2ad531fad5"
+            ],
+            "source": [
+                "ee14b7ee-5c93-432e-92fe-fbd3b1d5f045"
+            ],
+            "has_missing_time": false
+        },
+        "SAMBASPIDER": {
+            "total": 2,
+            "target": [
+                "1c15d0af-8c5e-423e-b55e-a85192ca4711"
+            ],
+            "source": [
+                "aca049c3-ae9e-44ce-86fb-eee8b43da5c7"
+            ],
+            "has_missing_time": false
+        },
+        "APT37": {
+            "total": 20,
+            "target": [
+                "d1292f8c-f2e0-426a-b0bb-282672bc8c44",
+                "70f5d08a-e94a-424b-9664-b1a293fb8d63",
+                "5ac08ddf-9112-4452-a90b-c8bd0519410d",
+                "ce9e39ce-5a41-44b5-a962-d03d023e8019",
+                "1472c22d-b271-494d-a4be-f6e82c3a3f19",
+                "be79f2f2-3065-4b91-9d54-09b121f7a25a",
+                "5936f0f7-762a-41fd-8390-017e2278728e",
+                "84729cb4-5ddf-4811-a1e1-4649adc5900d",
+                "3b2edc59-8d8e-44ee-9fbf-250245134b03",
+                "de8578b4-cb59-471f-9749-6400bdd9a545"
+            ],
+            "source": [
+                "2cdee992-459e-4bd3-ac41-dcb273d1a0a6",
+                "4dce761c-5018-4bed-ab51-c0b03086f371",
+                "1b61a4f3-e58f-4601-9ebd-60f90c35342f",
+                "fdec0880-022d-475c-9d96-a95d5b421d29",
+                "b8dfd8cc-5660-4e77-91a4-a1a3c7f0d5d4",
+                "69a9b9fd-e8e2-4f91-ae4f-9ad1ee0b9722",
+                "1afb413d-af1b-4fc2-95c8-bf77d95b7a54",
+                "42e90d9f-07e0-40c5-8ced-ed8b9849fed4",
+                "46fefe0e-351a-4c03-bee4-d0f87bf0a221",
+                "893c261d-af83-4fb4-b4b9-bc3a27c28d04"
+            ],
+            "has_missing_time": false
+        },
+        "APT40": {
+            "total": 2,
+            "target": [
+                "258f9fb4-094c-4e99-93c4-05fa81c49923"
+            ],
+            "source": [
+                "e51891cf-afa6-4f74-9e6f-85b0bf9c664f"
+            ],
+            "has_missing_time": false
+        },
+        "QUILTED TIGER": {
+            "total": 2,
+            "target": [
+                "70cd1435-6c65-4c04-9562-6204df7d5d5d"
+            ],
+            "source": [
+                "4351574e-0e0d-4b05-ad66-560c819f24af"
+            ],
+            "has_missing_time": false
+        },
+        "YoroTrooper": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "048a8a7d-92e4-4a76-97c0-a413f2556d55"
+            ],
+            "has_missing_time": false
+        },
+        "Callisto": {
+            "total": 4,
+            "target": [
+                "6b88c935-1c9f-439b-a960-44d048c409f4",
+                "bdfde615-e9ff-4db2-b74d-4e8a86af859d"
+            ],
+            "source": [
+                "4b25324b-1f10-4862-afd9-922aef4e7c85",
+                "c6a0fa9d-8256-4bbe-9665-daee061c21a4"
+            ],
+            "has_missing_time": false
+        },
+        "TA505": {
+            "total": 3,
+            "target": [
+                "f1e3c4d4-0c72-4ee7-a13d-c627784b6bdf"
+            ],
+            "source": [
+                "4df9806e-b9ba-4258-95d1-e8b1ca367d78",
+                "23e7fb3d-9eb0-4c50-b01f-2647f034ae39"
+            ],
+            "has_missing_time": false
+        },
+        "Caramel Tsunami": {
+            "total": 2,
+            "target": [
+                "688a9cba-00c5-4bde-8523-f953e037a59d"
+            ],
+            "source": [
+                "4a9e629b-c35c-4043-be00-6e1d867e86c7"
+            ],
+            "has_missing_time": false
+        },
+        "Earth Berberoka": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "8a4d745a-b3fb-4e95-80eb-a32be5c9ad08"
+            ],
+            "has_missing_time": false
+        },
+        "UTA0178": {
+            "total": 5,
+            "target": [
+                "26767b54-8699-4feb-bb58-1147f31c1143",
+                "1202d22c-6799-4dab-8524-6e6247be5c79"
+            ],
+            "source": [
+                "e77e1c0c-9280-4571-b04e-b83c18b7e0cd",
+                "8934a0e6-e4eb-4af2-9f0d-eed8c803f157",
+                "00897c58-fc40-4eec-8b82-ee68188ccbb4"
+            ],
+            "has_missing_time": false
+        },
+        "Kinsing": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "f51bcfa3-1a1c-4c6c-9c9e-0cd1234b293a"
+            ],
+            "has_missing_time": false
+        },
+        "SaintBear": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "dfbf3480-5727-4328-a162-ce575eab7ccd"
+            ],
+            "has_missing_time": false
+        },
+        "ToddyCat": {
+            "total": 4,
+            "target": [
+                "8d35be04-adf2-4b97-9cce-e0325c2ba57d",
+                "4fbec506-5f74-4cb9-8dfd-41e79db8f34e"
+            ],
+            "source": [
+                "3c09b4b4-abd4-4495-94e2-0aafb8c45549",
+                "300c37a3-1685-49ed-9209-5995ad47df83"
+            ],
+            "has_missing_time": false
+        },
+        "UAC-0006": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "d3cf05cd-4b86-4fd3-980d-a1a33ee10f07"
+            ],
+            "has_missing_time": false
+        },
+        "APT33": {
+            "total": 3,
+            "target": [
+                "3d3fc890-17e0-46b0-9cea-069cafa1bfc7"
+            ],
+            "source": [
+                "1c8c0a13-61e3-47d9-9640-3e9b6f0cedc0",
+                "2513b2b0-92c6-4638-9e29-2cc3133b8016"
+            ],
+            "has_missing_time": false
+        },
+        "Angry Likho": {
+            "total": 3,
+            "target": [
+                "3f8cd2aa-e743-4933-9aa9-d05ae50cb6fd"
+            ],
+            "source": [
+                "e4580500-03b6-4c62-8435-77e38a79ffaf",
+                "bb6547af-a088-4cd0-811f-8f6ae8f22c92"
+            ],
+            "has_missing_time": false
+        },
+        "MuddyWater": {
+            "total": 14,
+            "target": [
+                "3aef8f26-b20f-4d45-a923-2e6e6398e708",
+                "a5b9e253-1360-4cf6-a9b5-78b1998859a6",
+                "4ba8e0a9-0460-4b16-80d7-23f436264852",
+                "1c911a45-9a13-4fae-986a-a57ecd989d6b",
+                "c7fdb7ab-b7e7-487c-8c48-876eb9d2fedc",
+                "aa6b303d-fdc7-4ae2-9dba-1c3503d8d224",
+                "9cd8f1d6-d6e4-4cce-8dad-20b3adf4544a"
+            ],
+            "source": [
+                "d809628d-72f8-485d-a901-76945bece260",
+                "8e22463b-ceb0-46c8-8d5f-331b6479a683",
+                "4eec6f0d-ca58-42c2-9a0d-a115054e30c4",
+                "2b35a7f8-eac7-407d-a743-5f129a4fe0f6",
+                "06c29574-96af-4875-ae94-32e33d24a815",
+                "2cd85124-6a4a-494f-9e42-cd094d14ba8f",
+                "34a8a2b5-2697-4e72-bf1a-b90d89019270"
+            ],
+            "has_missing_time": false
+        },
+        "GhostSec": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "4632f1eb-097c-4089-b715-c2572031e048"
+            ],
+            "has_missing_time": false
+        },
+        "Void Rabisu": {
+            "total": 2,
+            "target": [
+                "4a468916-73b7-440d-a1b7-edb0e31fd6c5"
+            ],
+            "source": [
+                "bba5b2d2-373d-4a28-ae56-667d0127acd9"
+            ],
+            "has_missing_time": false
+        },
+        "Earth Krahang": {
+            "total": 2,
+            "target": [
+                "803fb5a2-4c38-4ff9-a355-e7fff6668527"
+            ],
+            "source": [
+                "674a2278-f1da-4ca5-b540-2b31f61e401a"
+            ],
+            "has_missing_time": false
+        },
+        "APT29": {
+            "total": 15,
+            "target": [
+                "572459fc-f63c-41b9-90b0-012365f591cc",
+                "4c39e0a9-0365-4176-b71d-eb6cd0fd7abb",
+                "b521ef88-e289-425d-b645-5099a1bd81a6",
+                "0ddd6376-55e0-4a45-b5c2-3d6ebe2734e3",
+                "afc1c6cd-2518-4abc-83b3-7a2ba140de78",
+                "2e62c176-9c62-40f7-ace1-0f2507c956ed",
+                "d9b49cf4-0fea-4232-bdd1-adccc947daf6"
+            ],
+            "source": [
+                "346353ad-4c8b-437b-91d2-954177e06dc5",
+                "dbc112c6-8a84-4eda-9bf7-2fc29e8e6987",
+                "f305825a-3f77-410b-a22d-d71096d26fcc",
+                "1922400b-5daf-46b6-9a4b-9087dae6e2a3",
+                "1397a65e-95c0-45d3-a214-f818b8bb1f9c",
+                "616a37ac-29c0-4f8f-a31a-b4ff2c8cc188",
+                "9ef28576-4437-4b68-8426-f8b3c4183cde",
+                "eb3b5a92-9b4a-4b64-a1eb-6d0cbfbf51df"
+            ],
+            "has_missing_time": false
+        },
+        "MirrorFace": {
+            "total": 5,
+            "target": [
+                "ec7fffce-3b57-4cab-b63e-2e3178a99e2f",
+                "5ac2b188-ef3c-4fa3-ab32-61e745bea1dd"
+            ],
+            "source": [
+                "4abeba6b-112f-4d20-a74d-99e86ea378f4",
+                "57242743-317a-4b7d-b0c8-1599300f6159",
+                "0afc9bd2-740f-41f0-822f-ff24574b241b"
+            ],
+            "has_missing_time": false
+        },
+        "FIN7": {
+            "total": 8,
+            "target": [
+                "58079bc6-e223-4031-b325-4479084fd8b5",
+                "c24b0257-70cd-4fcb-a67e-3cda347b550f",
+                "387c6493-d5f2-40c8-b1a0-72fdff92971d",
+                "9f22338e-213f-4038-94a2-cb89231899e9"
+            ],
+            "source": [
+                "97f4c99e-09a2-42a6-b081-af4c2286f76c",
+                "54692035-d51f-4017-8d13-050a5efc059c",
+                "8dbdbb99-802e-4df9-9f47-f3b89a1723f8",
+                "928ad3c7-55ec-426c-9f3b-828afb29e3dd"
+            ],
+            "has_missing_time": false
+        },
+        "APT27": {
+            "total": 3,
+            "target": [
+                "be7877ca-ef8b-4721-a7c6-551ff5575fda"
+            ],
+            "source": [
+                "8cbd9c49-50e4-4160-a7b8-f9cf90c012ea",
+                "70e0250b-4dd7-47ab-840f-9e153de00530"
+            ],
+            "has_missing_time": false
+        },
+        "TA428": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "a5c831c6-5b0d-43cf-97fa-bcaf9efbf9a3"
+            ],
+            "has_missing_time": false
+        },
+        "TA406": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "21bcc23d-e3d9-44f8-9349-a162a7d7454f"
+            ],
+            "has_missing_time": false
+        },
+        "Thrip": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "90c1f6e4-ef92-4ea0-b797-1123958d44ba"
+            ],
+            "has_missing_time": false
+        },
+        "APT41": {
+            "total": 18,
+            "target": [
+                "5b77ec81-1d57-4fc8-8646-debf06573918",
+                "a7fc1ce1-a746-42ec-ab3e-f2e963ba28fd",
+                "13241da3-21ba-459b-9f16-248949d4cbee",
+                "8acfc76e-9755-4142-9a16-d58b6225d716",
+                "247ef11a-60e7-4fac-9b00-db6cfa2ca52e",
+                "7d88c999-4e4e-4767-84bb-165a46b4966b",
+                "fc2d6ba2-9706-4010-abe6-313e601e4563",
+                "b1c2f7bf-0f48-4d53-a327-17360e8cecec",
+                "5137ddb9-b56a-4a43-9ab4-10e6faa3ede0"
+            ],
+            "source": [
+                "aafbcef7-ab67-4cdf-9b28-11314dcb9e37",
+                "e82239af-174b-4c77-bc6d-1b73bc62631f",
+                "67335421-6e9c-4be6-af41-96b222cc904e",
+                "24b84e2f-2867-4d81-b04b-061958054d54",
+                "07e503aa-39fd-4194-9ea6-346ff30018f7",
+                "214d0c0f-f33a-471b-b003-bc782d561f67",
+                "f5a0bac0-692a-4cd8-a71e-616eeef35eb5",
+                "85af66d5-2c05-4747-ac87-39d5d8105ef6",
+                "6db5e719-13f8-4dc1-8c43-85e4d0a4fa7f"
+            ],
+            "has_missing_time": false
+        },
+        "Scattered Spider": {
+            "total": 5,
+            "target": [
+                "64c22af3-ec83-4c50-8409-9fe5e7c67662",
+                "d9bcd6d8-36d9-4f59-bff1-fb91ed41ae92"
+            ],
+            "source": [
+                "4d9b9f88-6f12-4a25-b8db-767b3614aab0",
+                "f8a33eea-caf3-4c97-aca7-aed15ef1fffb",
+                "8bf3ec6e-e8e3-45e7-8fc9-b108cf3942bd"
+            ],
+            "has_missing_time": false
+        },
+        "Vanilla Tempest": {
+            "total": 4,
+            "target": [
+                "622228d4-1813-4afe-acd0-169bfb612c01",
+                "ffaacea0-5ba9-4f34-81e4-4ec62484eb87"
+            ],
+            "source": [
+                "08ce9055-ef70-4c1c-92ee-bdc57ecc3e11",
+                "256b4d5c-27a1-44bd-8a69-a8731153060d"
+            ],
+            "has_missing_time": false
+        },
+        "RansomHub": {
+            "total": 7,
+            "target": [
+                "47e7347f-91ac-448a-9cfd-c0771468846e",
+                "3bd74ee2-36cc-4dbf-a1fa-8938de8bad12",
+                "4e1b1f55-0a6a-447a-9035-985175be650c"
+            ],
+            "source": [
+                "f0954d37-d7e6-4341-aff0-7af14c5994fc",
+                "2cc3ed91-322a-47b4-85a0-8ee6947ff739",
+                "e0ea9546-13cd-4279-8fa9-0787a7091db4",
+                "a9ecfb57-fbd0-4388-849c-ce16087ce381"
+            ],
+            "has_missing_time": false
+        },
+        "FIN6": {
+            "total": 4,
+            "target": [
+                "40be296b-237c-4d53-86a7-57d866a2a1e2",
+                "6b07b5c9-1c28-443e-a4bd-67ae2e0f7bd5"
+            ],
+            "source": [
+                "3f05f297-8b3c-4bd9-8078-4013860071cb",
+                "2737206a-56af-4a98-bca6-faca347b43ec"
+            ],
+            "has_missing_time": false
+        },
+        "Silent Chollima": {
+            "total": 11,
+            "target": [
+                "bb65637d-e75a-411f-8810-0b50a66d1fd1",
+                "1927fa62-1d71-4b32-a212-21dd6f9c080f",
+                "c29cf31d-9fc7-4391-a74d-64b90c326842",
+                "9b0a8e25-1cc6-4032-8c3a-86203ef220a7",
+                "a25daaa9-8e38-461b-95a9-0053a518c1a5"
+            ],
+            "source": [
+                "4f53a7f2-533b-415d-b45d-f330989acc42",
+                "85acb534-fb7f-4cca-8e53-4e672b6ba744",
+                "259fbde3-4710-44d9-b826-eb396d0ff74c",
+                "f90dc12d-0d46-46cf-94d7-44d0863a93c1",
+                "18714980-4fdd-4a6a-a9ba-b3e68b4d5786",
+                "e9a27ea7-649e-4301-b02b-f686e404d758"
+            ],
+            "has_missing_time": false
+        },
+        "Tonto Team": {
+            "total": 3,
+            "target": [
+                "9ae21f2f-246e-4861-9e76-97a35613cb9b"
+            ],
+            "source": [
+                "ed858696-4ec2-4396-9504-38cba2c8fe43",
+                "f0d79b16-1bb6-4c55-9aa8-ee979162beab"
+            ],
+            "has_missing_time": false
+        },
+        "WindShift": {
+            "total": 3,
+            "target": [
+                "89c52971-34a6-4c05-9c87-10b7fcfe9d1f"
+            ],
+            "source": [
+                "fddf67d5-ae23-430e-aada-142325743bfd",
+                "06fbac4c-389d-4ece-830d-32912898c1dd"
+            ],
+            "has_missing_time": false
+        },
+        "HAZY TIGER": {
+            "total": 6,
+            "target": [
+                "235a0310-c9f3-4274-96b3-ab5dce816038",
+                "c6b49f38-69dc-424f-aaca-49617357c308",
+                "4579e066-b45e-47d7-a27b-307b25b03fd2"
+            ],
+            "source": [
+                "adec25d6-bb4c-4bca-bbe6-2d8439c91ec2",
+                "4db4bc72-6dab-40e2-be61-37a47d804daf",
+                "65e56322-5ddf-4b8e-8a5f-434b2c416898"
+            ],
+            "has_missing_time": false
+        },
+        "Sandworm": {
+            "total": 9,
+            "target": [
+                "6a75d0ae-7eb9-4d02-85c1-53ceb48c4da2",
+                "da17f410-edf0-4ece-927a-cbc7ccdf332f",
+                "2dc515de-519c-4507-8a75-2236bc04de29",
+                "4d4d6d06-840b-492c-90a8-d22bf953c242"
+            ],
+            "source": [
+                "a64aab96-d0dc-4cf4-9d8e-b7ab5c9b3cfb",
+                "131d1544-6ca7-464a-bfa7-f24dab395c6e",
+                "bb816255-1579-402c-8c66-b0bd08303130",
+                "f22a06a0-f63a-4b84-b77d-cd8010a02e29",
+                "d85628a1-dbf0-4881-b795-9fd2559ab901"
+            ],
+            "has_missing_time": false
+        },
+        "Sea Turtle": {
+            "total": 4,
+            "target": [
+                "4e1a97e4-82db-4a3c-9791-370118cfbad0",
+                "e1dcd3f2-cead-4ed4-9b3b-94cbdfa20c8b"
+            ],
+            "source": [
+                "a0401662-3be0-4dd4-a28a-4ca2cd6b2233",
+                "a0344983-35ca-4b72-a90e-6e8f2bd53e84"
+            ],
+            "has_missing_time": false
+        },
+        "Pink Sandstorm": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "7315acd0-fbbc-46ff-9830-00bb530e8b02"
+            ],
+            "has_missing_time": false
+        },
+        "AridViper": {
+            "total": 5,
+            "target": [
+                "d590c7ad-9b00-4d95-9ca0-98d203f77c73",
+                "9f323a94-43f4-4697-8ff9-f4e9b05ad12e"
+            ],
+            "source": [
+                "3657627f-9b61-4e1d-94d4-143a5289eb28",
+                "b893c2b9-0311-41e1-bac6-271ac34f2307",
+                "77fe177a-1ddc-43d0-b58d-2a3cdd26726b"
+            ],
+            "has_missing_time": false
+        },
+        "Storm-1575": {
+            "total": 4,
+            "target": [
+                "7ba91ac1-1f29-45e0-b8b6-6e7dc44f83a4",
+                "b348adb6-a45b-46b9-ae67-1917faf3cb9c"
+            ],
+            "source": [
+                "cc8090ee-d857-4702-b6d1-0880f62f5d95",
+                "564993aa-c01d-4355-a970-2cc570293c95"
+            ],
+            "has_missing_time": false
+        },
+        "Earth Lusca": {
+            "total": 2,
+            "target": [
+                "0cea87e5-9ec1-414a-a477-8f7dbb3e0d17"
+            ],
+            "source": [
+                "d89e228a-24f0-4724-aa8b-3c720556cf10"
+            ],
+            "has_missing_time": false
+        },
+        "GhostEmperor": {
+            "total": 4,
+            "target": [
+                "764760c7-d787-4d5b-9214-519d90cbd202",
+                "eb8186fe-a03f-4040-900e-8a44c52a70fd"
+            ],
+            "source": [
+                "767a546d-916c-4330-9011-8bc9c7f1528b",
+                "1b7a68c5-7a95-400d-9b48-9b1770f2ae54"
+            ],
+            "has_missing_time": false
+        },
+        "Void Blizzard": {
+            "total": 2,
+            "target": [
+                "5021705a-0c9c-401b-ba8c-7f73b3bc2db3"
+            ],
+            "source": [
+                "a58ca8a1-879b-44f3-8862-f6f801f6dae8"
+            ],
+            "has_missing_time": false
+        },
+        "BRONZE STARLIGHT": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "4a407374-4526-40eb-ac98-588cfa2f701d"
+            ],
+            "has_missing_time": false
+        },
+        "Head Mare": {
+            "total": 2,
+            "target": [
+                "3f58e064-2b27-4ec2-9d2f-088e5d440e48"
+            ],
+            "source": [
+                "fe552477-fba9-4d8f-83a5-3dcecab3a760"
+            ],
+            "has_missing_time": false
+        },
+        "Cotton Sandstorm": {
+            "total": 2,
+            "target": [
+                "897020a5-55bb-403a-ae94-59feb9b5b091"
+            ],
+            "source": [
+                "7d560b1f-a4d9-4a5f-bc3c-7428b3b4f1da"
+            ],
+            "has_missing_time": false
+        },
+        "OilRig": {
+            "total": 9,
+            "target": [
+                "2e0abf74-c03f-4a32-8f24-6e72eb790157",
+                "e7849728-aa4e-4ac6-842c-05171e16e431",
+                "662e854f-340b-467e-85e5-b3060f1218a8",
+                "09bc5bae-7369-4eb1-a1b0-be1c7eeaf508"
+            ],
+            "source": [
+                "9d933216-4062-4f32-8be8-edbb52b99d74",
+                "26bb3ad3-1c63-4fc0-a7be-b9d40fcaea0d",
+                "828db39a-4349-45e0-bf71-9b7c3ba835d7",
+                "59578fa8-ed54-49ad-94f9-8dc78fa4fa21",
+                "3375f7fc-d67e-4f1a-b263-30eea48f7b0a"
+            ],
+            "has_missing_time": false
+        },
+        "GOLD CABIN": {
+            "total": 3,
+            "target": [
+                "a18120e2-f60b-4530-bea9-2661dfd947bc"
+            ],
+            "source": [
+                "167563c7-d90e-493b-aecc-460e8f4b7f0d",
+                "87bdf4c6-6081-431f-a17a-7a8b0ae325b5"
+            ],
+            "has_missing_time": false
+        },
+        "Earth Baxia": {
+            "total": 2,
+            "target": [
+                "bc2a179c-a707-4bc5-8579-45537bec7c85"
+            ],
+            "source": [
+                "d51c5317-5aa7-43be-a9fe-fc27a791924b"
+            ],
+            "has_missing_time": false
+        },
+        "HomeLand Justice": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "4f95ffc0-ace2-4d85-ba14-76fa69d2a046"
+            ],
+            "has_missing_time": false
+        },
+        "Mustard Tempest": {
+            "total": 2,
+            "target": [
+                "bea36152-0aa9-464c-9dc4-1c865cb58158"
+            ],
+            "source": [
+                "11ec0f05-07da-46c7-b964-a9cd2d9da037"
+            ],
+            "has_missing_time": false
+        },
+        "Gamaredon Group": {
+            "total": 13,
+            "target": [
+                "75880d83-6719-411c-9fdd-4cb7e40c8ed7",
+                "cfe0d1c0-662d-47ea-8966-90a92d027d03",
+                "f71c94e7-b873-4813-9327-bd56d4fe38c7",
+                "088041ea-00e8-4677-ae2e-d84e5de8e84e",
+                "33b5d45c-adb4-4c22-bfd8-6d84369094d6",
+                "0eec2cb6-5262-406a-8947-fdcc62d735e8"
+            ],
+            "source": [
+                "dee88f47-8f46-4623-b567-f59d5cacadcb",
+                "92fedffe-321c-4667-8a46-1a62365e0a00",
+                "38b513a6-a4be-408f-b997-b481868586bc",
+                "636c6553-e55c-4406-b77f-12ce10141422",
+                "65840cc7-e9a5-4716-a32c-3de2ea95eb4b",
+                "a45ed61f-a3ea-446b-8138-cd64be7373bf",
+                "cafe5739-4e5e-40a1-a443-1ab0a9080f55"
+            ],
+            "has_missing_time": false
+        },
+        "VENOM SPIDER": {
+            "total": 2,
+            "target": [
+                "fc727917-1bff-4517-86b3-372cb2f15b74"
+            ],
+            "source": [
+                "1272e88c-d88c-4633-b0a0-2bac08a4ef6a"
+            ],
+            "has_missing_time": false
+        },
+        "Earth Longzhi": {
+            "total": 2,
+            "target": [
+                "344883a7-2c15-4c10-90dd-9ee062db310a"
+            ],
+            "source": [
+                "c5da11cf-cefc-4fcd-a707-e5673353a367"
+            ],
+            "has_missing_time": false
+        },
+        "Water Sigbin": {
+            "total": 6,
+            "target": [
+                "094947da-a845-479a-b1bb-aebde0e0fb1d",
+                "b7780bdf-7b4a-4ea3-ab04-7afcdb5ea357",
+                "392ec293-a026-47ba-b026-90d2cb32ac28"
+            ],
+            "source": [
+                "bc3af931-5304-4798-8457-f8db37ee535c",
+                "0504159c-e5ae-429b-8086-6259e8c94aca",
+                "0cf33c90-6bff-49a6-a593-d2cdbd00bfa1"
+            ],
+            "has_missing_time": false
+        },
+        "TheWizards": {
+            "total": 2,
+            "target": [
+                "bcfdf113-f552-4ead-9603-6ab448d22af1"
+            ],
+            "source": [
+                "f66e0ee4-dabd-4fb9-b5d2-c3248243c41c"
+            ],
+            "has_missing_time": false
+        },
+        "APT31": {
+            "total": 2,
+            "target": [
+                "7381d9eb-fc2c-46a3-9d49-63a0217b27fe"
+            ],
+            "source": [
+                "178c46cf-c506-46f5-b276-01559944d7d5"
+            ],
+            "has_missing_time": false
+        },
+        "TA577": {
+            "total": 2,
+            "target": [
+                "af63de8b-4e8c-4c49-a4e9-a915733b29bd"
+            ],
+            "source": [
+                "e504986d-2fdf-496b-b14a-41ce63603721"
+            ],
+            "has_missing_time": false
+        },
+        "Volt Typhoon": {
+            "total": 3,
+            "target": [
+                "65b71c0c-23e4-4c46-acf9-8dd1c6b69114"
+            ],
+            "source": [
+                "26f144dd-1528-46e6-aa31-db52dc4f9fc3",
+                "2c194554-ffb3-4abc-9295-3dc307ea0a74"
+            ],
+            "has_missing_time": false
+        },
+        "VICEROY TIGER": {
+            "total": 6,
+            "target": [
+                "b1c9553f-f061-4bb5-8531-b8eb937c9c9f",
+                "fdf5a517-6ca0-434d-83e1-c57c3346debb",
+                "fca644de-4f5c-4135-9560-d88c3517b5f3"
+            ],
+            "source": [
+                "71f2dbd7-6988-4aef-bf19-dffdc84f4ea9",
+                "f39974a2-494a-4ad1-8119-a963100d6b79",
+                "a31bfe51-8349-418d-b9b7-cfbf530891df"
+            ],
+            "has_missing_time": false
+        },
+        "Earth Estries": {
+            "total": 2,
+            "target": [
+                "03e1dc0e-726b-47ed-ac57-2396be512c7a"
+            ],
+            "source": [
+                "99bc3a5b-1d36-4dc5-9173-63ee269dc31d"
+            ],
+            "has_missing_time": false
+        },
+        "UNC3886": {
+            "total": 2,
+            "target": [
+                "4b2e0dcc-171e-4e31-b241-a519b46aaf9b"
+            ],
+            "source": [
+                "1ae83e8a-d3da-4354-8b00-8522c715e35e"
+            ],
+            "has_missing_time": false
+        },
+        "APT15": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "596fa3f2-6048-4887-9aad-36d954739f98"
+            ],
+            "has_missing_time": false
+        },
+        "Chamelgang": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "555d5020-1bfc-4a1c-97c9-be1de4d64986"
+            ],
+            "has_missing_time": false
+        },
+        "NoName057(16)": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "6942c4bd-2fb9-4f65-a16b-8e2f494e5f00"
+            ],
+            "has_missing_time": false
+        },
+        "WageMole": {
+            "total": 2,
+            "target": [
+                "f3f90db5-cfbb-4f36-8637-e716bcf3f49c"
+            ],
+            "source": [
+                "a2abe5d6-fa5c-4d79-8c17-2ddc55a76730"
+            ],
+            "has_missing_time": false
+        },
+        "MageCart": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "b992bc18-ad3f-404b-a5af-89e080a1a35f"
+            ],
+            "has_missing_time": false
+        },
+        "Hezb": {
+            "total": 2,
+            "target": [
+                "0558e05d-baf2-4c28-b03f-9379e5fd02c4"
+            ],
+            "source": [
+                "e1f976d7-c006-45f9-b63f-8e4fc5ac993e"
+            ],
+            "has_missing_time": false
+        },
+        "BRONZE HIGHLAND": {
+            "total": 1,
+            "target": [],
+            "source": [
+                "25592b0d-7162-45a7-a1b7-44cb5e2ab883"
+            ],
+            "has_missing_time": false
+        },
+        "Ghostwriter": {
+            "total": 6,
+            "target": [
+                "a1c61ede-f56a-40b6-a0b7-c9257b2d4867",
+                "fd9b5169-9b2e-434f-b17e-4b3f368042d0",
+                "3a2235d9-18f3-4bc2-a301-40d67c31ffbd"
+            ],
+            "source": [
+                "6db1cd85-c9c3-4746-8f65-87e636f4ee4c",
+                "73ce404c-e055-42f7-b15e-4795861dafef",
+                "f9923c26-4b0c-4a48-9a1f-87d3c186e911"
+            ],
+            "has_missing_time": false
+        },
+        "RomCom": {
+            "total": 10,
+            "target": [
+                "7e79f008-76cf-4a71-9540-2e8f88b20220",
+                "2c7cdd63-5ccb-444c-93dc-462b042f5d76",
+                "07400ea3-cafc-415c-a11f-28480cc97345",
+                "80d3fdb5-0f29-4901-9fab-db10bb040dbb",
+                "a0cdf6be-6ee6-4c07-9af7-0bcfefbeba02"
+            ],
+            "source": [
+                "5cd24450-cdc4-4603-9a18-59a8b3c00691",
+                "fce25b63-68d1-4e46-bc21-093786143ec4",
+                "c60422d0-0382-4fba-8702-138ae73d667a",
+                "6bc536b1-e456-46d2-99f5-e1cb86b6e4af",
+                "36e7b4fb-339a-48e6-aadb-9e3e7d51534b"
+            ],
+            "has_missing_time": false
+        }
+    },
+    "split_rate": 0.5,
+    "rule": "target=older, source=newer"
+}

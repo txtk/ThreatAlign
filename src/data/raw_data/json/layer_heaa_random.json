@@ -1,0 +1,54 @@
+{
+  "layer1": [
+    "cryptocurrency-wallet",
+    "domain-name",
+    "email-message",
+    "email-addr",
+    "file",
+    "hostname",
+    "location",
+    "phone-number",
+    "url",
+    "user-account",
+    "vulnerability",
+    "windows-registry-key",
+    "ipv4-addr",
+    "ipv6-addr",
+    "text",
+    "tool"
+  ],
+  "layer2": [
+    "indicator"
+  ],
+  "layer3": [
+    "attack-pattern"
+  ],
+  "layer4": [
+    "malware"
+  ],
+  "layer5": [
+    "intrusion-set"
+  ],
+  "all": [
+    "cryptocurrency-wallet",
+    "domain-name",
+    "email-message",
+    "email-addr",
+    "file",
+    "hostname",
+    "location",
+    "phone-number",
+    "url",
+    "user-account",
+    "vulnerability",
+    "windows-registry-key",
+    "ipv4-addr",
+    "ipv6-addr",
+    "text",
+    "indicator",
+    "attack-pattern",
+    "malware",
+    "tool",
+    "intrusion-set"
+  ]
+}

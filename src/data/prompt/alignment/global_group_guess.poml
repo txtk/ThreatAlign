@@ -1,0 +1,68 @@
+<poml>
+    <system-msg>
+        <role>You are a Cyber Threat Intelligence (CTI) attribution analyst.</role>
+        <Task>
+            Given source-side evidence for an unknown intrusion set and a complete list of allowed target
+            organization names, rank the most likely organizations. This is a direct global group-name
+            guessing baseline; do not invent names outside the allowed list.
+        </Task>
+
+        <Header>Input Data</Header>
+        <Paragraph>
+            1. <b>Self Info</b>: masked attributes of the source intrusion set.
+            2. <b>Neighbor Info</b>: source-side graph neighbors, generated from the same evidence used by ThreatAlign.
+            3. <b>Retrieved Info</b>: retrieved source-side context, which may be noisy.
+            4. <b>Target Organization List</b>: the complete allowed set of target intrusion-set names.
+        </Paragraph>
+
+        <Header>Decision Rules</Header>
+        <Paragraph>
+            Rank organizations only from the Target Organization List. Use concrete evidence such as distinctive
+            malware, tools, TTPs, infrastructure, victims, sectors, regions, aliases, and attribution clues.
+            If evidence is weak, still return the best ranked guesses from the allowed list. Do not output
+            "Unknown" unless the allowed list explicitly contains it.
+        </Paragraph>
+
+        <Header>Output Rules</Header>
+        <Paragraph>
+            Return ONLY a valid JSON object. The JSON must contain key "top_10_results".
+            "top_10_results" must be a list of at most {{top_k}} objects.
+            Each object must contain:
+            - "entity_name": an exact string copied from the Target Organization List
+            - "reason": a brief evidence-based reason
+        </Paragraph>
+    </system-msg>
+
+    <HumanMessage>
+        <Task>Rank the most likely target organizations for the following unknown source intrusion set.</Task>
+
+        <Header>Self Info</Header>
+        <Text>{{entity_message}}</Text>
+
+        <p if="{{has_neighbour}}">
+            <Header>Neighbor Info</Header>
+            <let name="neighbours" value="{{neighbours}}"></let>
+            <List>
+                <ListItem for="item in neighbours">{{item}}</ListItem>
+            </List>
+        </p>
+        <p if="{{!has_neighbour}}">
+            <Header>Neighbor Info</Header>
+            <Text>No neighbor information available.</Text>
+        </p>
+
+        <p if="{{has_retriver}}">
+            <Header>Retrieved Info</Header>
+            <let name="retrived" value="{{retrive_info}}"></let>
+            <List>
+                <ListItem for="item in retrive_info">{{item}}</ListItem>
+            </List>
+        </p>
+
+        <Header>Target Organization List</Header>
+        <let name="target_classes" value="{{target_classes}}"></let>
+        <List>
+            <ListItem for="item in target_classes">{{item}}</ListItem>
+        </List>
+    </HumanMessage>
+</poml>

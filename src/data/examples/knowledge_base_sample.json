@@ -1,0 +1,82 @@
+{
+  "description": "A minimal example of the released processed knowledge graph format. Raw CTI reports are not included in the public repository.",
+  "files": {
+    "attributes": "traditional_save/{source,target}_attributes.json",
+    "tuples": "traditional_save/{source,target}_tuples.txt",
+    "relation_map": "traditional_save/{source,target}_relation_map.json",
+    "entity_type_index": "traditional_save/{source,target}_entity_type_id.json",
+    "alignment_labels": "traditional_save/target_source_labels*.json"
+  },
+  "relation_map_example": {
+    "indicates": 0,
+    "based-on": 1,
+    "targets": 2,
+    "uses": 3,
+    "related-to": 4
+  },
+  "attribute_examples": {
+    "1": {
+      "entity_type": "intrusion-set",
+      "name": "Awaken Likho",
+      "aka_name": [
+        "Awaken Likho",
+        "Core Werewolf"
+      ],
+      "semantic": 1,
+      "processed": true
+    },
+    "86": {
+      "entity_type": "attack-pattern",
+      "name": "T1566",
+      "aliases": [
+        "Phishing"
+      ],
+      "phase_names": [
+        "initial-access"
+      ],
+      "semantic": 1,
+      "processed": true
+    },
+    "144": {
+      "entity_type": "malware",
+      "name": "Truebot",
+      "is_family": false,
+      "semantic": 1,
+      "processed": true
+    },
+    "0": {
+      "entity_type": "indicator",
+      "name": "win32soft.com",
+      "valid_from": "2023-06-09T15:37:39.000Z",
+      "valid_until": "2024-04-04T15:37:39.000Z",
+      "semantic": 1,
+      "processed": true
+    }
+  },
+  "tuple_examples": [
+    {
+      "head_id": "1",
+      "relation": "uses",
+      "relation_id": 3,
+      "tail_id": "144"
+    },
+    {
+      "head_id": "0",
+      "relation": "indicates",
+      "relation_id": 0,
+      "tail_id": "144"
+    },
+    {
+      "head_id": "1",
+      "relation": "uses",
+      "relation_id": 3,
+      "tail_id": "86"
+    }
+  ],
+  "notes": [
+    "Entity IDs are local to each source/target graph.",
+    "Tuple files store tab-separated triples: head_id, relation_id, tail_id.",
+    "Released graph nodes may contain extracted CTI entities, IOCs, aliases, time fields, and generated profile fields used by ThreatAlign.",
+    "The public release excludes raw CTI reports, crawler outputs, raw-to-graph construction artifacts, and historical experiment logs."
+  ]
+}

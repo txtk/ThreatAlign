@@ -1,0 +1,65 @@
+[project]
+authors = [{name = "mjxv", email = "mjxvtxtk1@gmail.com"}]
+name = "threatalign"
+requires-python = "== 3.11"
+version = "0.1.0"
+dependencies = [
+    "aiofiles>=24.1.0,<25",
+    "celery>=5.4,<6",
+    "celery-once>=3.0.1,<4",
+    "elasticsearch>=8.14,<9",
+    "httpx",
+    "json-repair>=0.54.1,<0.55",
+    "loguru>=0.7.3,<0.8",
+    "numpy>=1.26.4,<2",
+    "openai>=1.101.0,<2",
+    "pandas>=2.3.1,<3",
+    "poml>=0.0.8,<0.0.9",
+    "pydantic-settings>=2.10.1,<3",
+    "pyyaml>=6.0.2,<7",
+    "scikit-learn>=1.7.1,<2",
+    "textstat>=0.7.10,<0.8",
+]
+
+[build-system]
+build-backend = "hatchling.build"
+requires = ["hatchling"]
+
+[tool.pixi.workspace]
+channels = ["conda-forge"]
+platforms = [{ platform = "linux-64", cuda = "12.4" }]
+
+[tool.pixi.tasks]
+prepare-inputs = {cmd = "python -m threatalign.prepare_heaa_inputs", cwd = "src" }
+export-ea-heaa-random = {cmd = "python -m threatalign.export_heaa_to_ea_frameworks --dataset heaa_random --seed 20260801", cwd = "src" }
+export-ea-heaa-time = {cmd = "python -m threatalign.export_heaa_to_ea_frameworks --dataset heaa_time --seed 20260801", cwd = "src" }
+threatalign-heaa-random = {cmd = "python -m threatalign.run_heaa_threatalign --dataset heaa_random --runs 3", cwd = "src" }
+threatalign-heaa-time = {cmd = "python -m threatalign.run_heaa_threatalign --dataset heaa_time --runs 3", cwd = "src" }
+threatalign-heaa-random-check = {cmd = "python -m threatalign.run_heaa_threatalign --dataset heaa_random --runs 1", cwd = "src" }
+threatalign-heaa-time-check = {cmd = "python -m threatalign.run_heaa_threatalign --dataset heaa_time --runs 1", cwd = "src" }
+threatalign-heaa-random-audit = {cmd = "python -m threatalign.validate_heaa_threatalign_small_batch --dataset heaa_random", cwd = "src" }
+threatalign-heaa-time-audit = {cmd = "python -m threatalign.validate_heaa_threatalign_small_batch --dataset heaa_time", cwd = "src" }
+threatalign-heaa-random-ablation = {cmd = "python -m threatalign.run_heaa_threatalign_ablation --dataset heaa_random --runs 3 --skip-prepare", cwd = "src" }
+threatalign-heaa-time-ablation = {cmd = "python -m threatalign.run_heaa_threatalign_ablation --dataset heaa_time --runs 3 --skip-prepare", cwd = "src" }
+threatalign = {cmd = "python -m threatalign.main", cwd = "src" }
+celery = {cmd = "celery -A CeleryManage.scheduler worker -l info -n crawler-worker", cwd = "src"}
+clean = {cmd = "celery -A CeleryManage.scheduler purge -f", cwd = "src"}
+
+[tool.pixi.dependencies]
+aiofiles = ">=24.1.0,<25"
+elasticsearch = ">=8.14,<9"
+loguru = ">=0.7.3,<0.8"
+numpy = ">=1.26.4,<2"
+openai = ">=1.101.0,<2"
+pandas = ">=2.3.1,<3"
+pydantic-settings = ">=2.10.1,<3"
+pyyaml = ">=6.0.2,<7"
+scikit-learn = ">=1.7.1,<2"
+textstat = ">=0.7.10,<0.8"
+
+[tool.ruff]
+line-length = 120
+exclude = [
+     ".bzr", ".direnv", ".eggs", ".git", ".git-rewrite", ".hg", ".mypy_cache", ".nox", ".pants.d", ".pytype", ".ruff_cache", ".svn", ".tox", ".venv", "__pypackages__", "_build", "buck-out", "build", "dist", "node_modules", "venv", "__pycache__"
+]
+lint.dummy-variable-rgx = "^(_+|(_+[a-zA-Z0-9_]*[a-zA-Z0-9]+?))$"

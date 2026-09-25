@@ -1,0 +1,35 @@
+# Environments and build artifacts
+.pixi/
+*.egg-info/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Runtime outputs
+src/data/log/
+src/data/model/
+src/data/temp/
+*.tmp
+
+# Large optional vector artifacts
+*_vectors.pkl
+*_vector.pkl
+*.pkl
+
+# Raw or intermediate data that is not redistributed
+src/data/raw_data/json/attck_cache.json
+src/data/raw_data/json/attck_mes.json
+src/data/raw_data/json/attck_mobile.json
+src/data/raw_data/json/opencti/
+src/data/dataset/*/raw/
+src/data/dataset/*/raw_source/
+src/data/dataset/*/raw_target/
+src/data/dataset/*/raw_report/
+src/data/dataset/*/fuzz_source/
+src/data/dataset/*/triple/
+src/data/dataset/*/grouping/
+
+# Local secrets
+src/envs/.env.local
+.env

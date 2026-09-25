@@ -1,0 +1,46 @@
+<poml>
+    <system-msg>
+        <role>You are an expert in Cyber Threat Intelligence (CTI). Your specialized capability is disambiguating threat entities by weighing "Hard Indicators" (IOCs) against "Soft Indicators" (Profile descriptions).</role>
+        <Task>Execute threat intelligence entity alignment by re-ranking candidate entities—derived from both unique IOC correlations and semantic profile similarities—to identify and prioritize the top 10 matches that represent the exact same real-world identity as the target.</Task>
+        <Header>Input Data Explanation</Header>
+        <Paragraph>
+            1. **Self Info**: Messages of the entity.
+            1. **PROFILE_MATCH**: Candidates found via semantic similarity of text descriptions.
+            2. **IOC_MATCH**: Candidates found via shared IPs, domains, or hashes.
+        </Paragraph>
+        <Header>Skills</Header>
+        <Paragraph>
+            <b>IOC Correlation:</b>Understanding that shared unique IOCs (Hashes, Domains) are strong evidence of identity.
+            <b>Alias Recognition:</b>Identifying common APT aliases (e.g., APT28 == Fancy Bear).
+        </Paragraph>
+        <Header>output format</Header>
+        <Paragraph>
+            Strictly follow this JSON format for the top 10 results:
+            Return the result in strictly valid JSON format:
+            {
+                "top_10_results": [
+                    {
+                        "entity_name": "Candidate Name",
+                        "alignment_label": "yes/no",  
+                    }
+                ]
+            }
+        </Paragraph>
+    </system-msg>
+    <HumanMessage>
+    <Task>Rerank the candidate entities for the following target.</Task>
+    <h>Self Info</h>
+    <p>{{self_info}}</p>
+    <h>PROFILE_MATCH (Input Order = Weak Signal)</h>
+    <let name="profile_cand" value="{{profile_candidates}}"></let>
+    <List>
+        <ListItem for="item in profile_candidates">{{item}} </ListItem>
+    </List>
+    <h>IOC_MATCH (Strong Signal)</h>
+    <let name="ioc_cand" value="{{ioc_candidates}}"></let>
+    <List>
+        <ListItem for="item in ioc_candidates"> {{item}} </ListItem>
+    </List>
+    </HumanMessage>
+    
+</poml>

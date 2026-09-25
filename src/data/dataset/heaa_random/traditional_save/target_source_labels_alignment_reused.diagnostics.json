@@ -1,0 +1,48 @@
+{
+  "created_at": "2026-07-27T00:14:20.787865+08:00",
+  "dataset": "heaa_random",
+  "dataset_root": "data/dataset",
+  "source_label_path": "data/dataset/heaa_random/traditional_save/target_source_labels.json",
+  "output_path": "data/dataset/heaa_random/traditional_save/target_source_labels_alignment_reused.json",
+  "eval_types": [
+    "intrusion-set",
+    "malware",
+    "attack-pattern"
+  ],
+  "reused_types": {
+    "malware": {
+      "entity_type": "malware",
+      "reference_datasets": [
+        "private_legacy_random"
+      ],
+      "reference_label_counts": {
+        "mine": 106
+      },
+      "reference_graph_keys": 131,
+      "projected_sources": 62,
+      "projected_multilabel_sources": 15
+    },
+    "attack-pattern": {
+      "entity_type": "attack-pattern",
+      "reference_datasets": [
+        "private_legacy_random"
+      ],
+      "reference_label_counts": {
+        "mine": 546
+      },
+      "reference_graph_keys": 570,
+      "projected_sources": 500,
+      "projected_multilabel_sources": 461
+    }
+  },
+  "output_labels": 646,
+  "output_type_counts": {
+    "attack-pattern": 500,
+    "intrusion-set": 84,
+    "malware": 62
+  },
+  "output_multilabel_type_counts": {
+    "attack-pattern": 461,
+    "malware": 15
+  }
+}

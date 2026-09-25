@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-08-01T10:28:55.344027+08:00",
+  "dataset": "heaa_time",
+  "dataset_root": "data/dataset",
+  "source_label_path": "data/dataset/heaa_time/traditional_save/target_source_labels.json",
+  "output_path": "data/dataset/heaa_time/traditional_save/target_source_labels_alignment_attack_only.json",
+  "eval_types": [
+    "attack-pattern"
+  ],
+  "reused_types": {
+    "attack-pattern": {
+      "entity_type": "attack-pattern",
+      "reference_datasets": [
+        "private_legacy_time",
+        "private_legacy_random"
+      ],
+      "reference_label_counts": {
+        "mine_time": 0,
+        "mine": 546
+      },
+      "reference_graph_keys": 570,
+      "projected_sources": 473,
+      "projected_multilabel_sources": 446
+    }
+  },
+  "output_labels": 473,
+  "output_type_counts": {
+    "attack-pattern": 473
+  },
+  "output_multilabel_type_counts": {
+    "attack-pattern": 446
+  }
+}
